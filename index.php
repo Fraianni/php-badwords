@@ -15,9 +15,13 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
 
 ?>
- <p> <?php echo $text ?> </p>
+
+<p> <?php echo $text ?> </p>
+<p> <?php echo str_word_count($text) ?> </p>
 
 <p> <?php echo $new_text ?> </p>
+<p> <?php echo str_word_count($new_text) ?> </p>
+
 
 
 
